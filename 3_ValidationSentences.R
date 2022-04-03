@@ -1,7 +1,7 @@
 
-
-# Task: Get a set of sentences with Russia references
-# To create manual coding benchmarks for the LSS score
+# Project:  Russia Friend or Foe
+# Task:     Get a set of sentences 
+#           To create manual coding benchmarks for the LSS score
 
 
 # Packages #####

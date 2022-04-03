@@ -47,7 +47,7 @@ topfeatures(dfmat_sent, 20)
 
 
 # Seed dictionary ####
-# Aim is to measure whther Russia is presented as friend or foe
+# Aim is to measure whether Russia is presented as friend or foe
 
 conflict_terms <- list(
   positive = c("friend", "partner", "ally", "peace", "peaceful",  "friendly", "cooperative"),

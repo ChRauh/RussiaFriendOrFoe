@@ -42,3 +42,6 @@ vignettes/*.pdf
 
 # Data
 /Data/ungd.rds
+/Data/ungd_sentences.rds
+/Data/ungd_sentences_srl.rds
+/Data/ungd_sentences_srl_list.rds
