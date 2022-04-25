@@ -19,9 +19,14 @@ DATA_DIR <- "D:/WZB-Nextcloud/WZB_CR/Datensaetze/UNGA/Original/UNGDC_1970-2020/T
 ungd <- readtext(paste0(DATA_DIR, "/*"), 
                        docvarsfrom = "filenames", 
                        dvsep="_", 
-                       docvarnames = c("country", "session", "year"))
+                       docvarnames = c("country", "session", "year"), 
+                 encoding = "UTF-8")
 
 ungd <- ungd %>% as.data.frame()
+
+# Clean text
+ungd$text <- ungd$text %>% str_replace_all("\\s+", " ")
+
 
 # IGO membership
 

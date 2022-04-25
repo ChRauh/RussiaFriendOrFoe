@@ -45,3 +45,4 @@ vignettes/*.pdf
 /Data/ungd_sentences.rds
 /Data/ungd_sentences_srl.rds
 /Data/ungd_sentences_srl_list.rds
+/Data/ungd_sentences_RussiaCodes.rds

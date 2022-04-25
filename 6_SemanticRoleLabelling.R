@@ -56,6 +56,8 @@ triplets <-data.frame()
 
 for (i in 1:length(srl)) {
   
+  print(i)
+  
   # There may be several verbs in each sentence verbs[[j]],
   # and each results in different semantic roles - so more triplets than sentences
   
@@ -98,3 +100,4 @@ triplets2[triplets2 == "character(0)"] <- NA
 
 
 write_rds(triplets2, "./Data/ungd_sentences_srl.rds")
+write_rds(srl, "./Data/ungd_sentences_srl_list.rds")
