@@ -49,10 +49,11 @@ vignettes/*.pdf
 /Data/lss_model.rds
 
 # Other non public folders
-/OLD
-/Text
-/ValidationApp-Set1
-/ValidationApp-Set2
-/ValidationApp-Set3
-/LeserbriefBecker
+/OLD/
+/Text/
+/ValidationApp-Set1/
+/ValidationApp-Set2/
+/ValidationApp-Set3/
+/LeserbriefBecker/
+
 
